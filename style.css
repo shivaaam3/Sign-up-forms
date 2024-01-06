@@ -1,0 +1,114 @@
+@font-face {
+    font-family: odin-font;
+    src: url(./Assets/Fonts/Norse-Bold.otf);
+}
+
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #F9FAFB;
+    display: flex;
+}
+
+.signup-container {
+    background-color: white;
+    padding: 16px 40px;
+    box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, 0.2)
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-container {
+    margin-top: 10.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo-text {
+    color: white;
+    font-family: odin-font;
+    font-size: 7rem;
+    margin-top: 1.75rem;
+}
+
+.warning {
+    color: red;
+    font-size: 0.7rem;
+}
+
+label {
+    font-size: 0.7rem;
+    color: #333232;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+
+input {
+    height: 1.5rem;
+    width: 15rem;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 0.3rem;
+}
+
+td {
+    padding: 16px 60px 0 0;
+}
+
+
+.logo {
+    height: 7rem;
+}
+
+.image-container {
+    text-align: center;
+    background-image: url("./Assets/Images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    background-position-x: center;
+    width: 40vw;
+    height: 100vh;
+}
+
+.credit-text {
+    color: white;
+    font-size: 0.7rem;
+    position: relative;
+    top: 60%;
+}
+
+.text {
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.text.introduction {
+    padding: 0 275px 40px 40px;
+}
+
+.submit {
+    background-color: #596C48;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 12px 50px;
+    border: 0px;
+    border-radius: 0.4rem;
+    margin: 30px 0 30px 40px;
+    box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.2)
+}
+
+.login {
+    font-size: 1rem;
+    margin-left: 40px;
+    font-weight: 500;
+
+}
+
+#signin-text {
+    text-decoration: none;
+    color: #596C48;
+}
